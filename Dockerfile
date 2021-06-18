@@ -2,7 +2,11 @@ FROM ubuntu
 
 MAINTAINER link_chiang
 
+ADD main.c /
+
 ADD hello_world.c /
+
+ADD hello_world.h /
 
 ADD build_hello_world.sh /
 
