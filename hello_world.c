@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include "hello_world.h"
 
-void main()
+void hello_world(void)
 {
-	printf("hello world by link 1st \r\n");
-	printf("hello world by link 2nd \r\n");
-	printf("hello world by link 4th \r\n");
+	printf("%s by link 1st \r\n", HELLO_WORLD);
+	printf("%s by link 2nd \r\n", HELLO_WORLD);
+	printf("%s by link 4th \r\n", HELLO_WORLD);
 }
