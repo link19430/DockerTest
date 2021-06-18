@@ -9,5 +9,6 @@ make 2> error.log
 cat error.log
 
 if [ -f "./hello_world" ]; then
+	echo -e "\nprogram output:"
 	./hello_world
 fi
